@@ -28,7 +28,14 @@
 #     print(num, "x", i, "=", num * i)
 
 #Sum of numbers from 1-100
-total = 0
-for i in range(1,101):
-    total += i
-print("Sum of numbers from 1-100:", total)
+# total = 0
+# for i in range(1,101):
+#     total += i
+# print("Sum of numbers from 1-100:", total)
+
+#Find factorial of a number entered by user
+num=int(input("Enter a number: "))
+factorial = 1
+for i in range(1, num + 1):
+    factorial *= i
+print("Factorial of", num, "is:", factorial)

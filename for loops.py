@@ -18,6 +18,17 @@
 #         print(i)
 
 # Odd Numbers from 1-50
-for i in range(1, 51):
-    if i % 2 != 0:
-        print(i)
+# for i in range(1, 51):
+#     if i % 2 != 0:
+#         print(i)
+
+#Multiplication table of number entered by user
+# num = int(input("Enter a number: "))
+# for i in range(1, 11):
+#     print(num, "x", i, "=", num * i)
+
+#Sum of numbers from 1-100
+total = 0
+for i in range(1,101):
+    total += i
+print("Sum of numbers from 1-100:", total)

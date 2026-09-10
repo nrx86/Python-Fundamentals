@@ -12,8 +12,12 @@
 # else:
 #     print("Target not found.")
 
-#Even numbers from 1-50
-for i in range(1,51):
-    if i%2==0:
+ #Even numbers from 1-50
+# for i in range(1,51):
+#     if i%2==0:
+#         print(i)
+
+# Odd Numbers from 1-50
+for i in range(1, 51):
+    if i % 2 != 0:
         print(i)
-    

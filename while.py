@@ -20,3 +20,11 @@
 #     sum=sum+num%10
 #     num=num//10
 # print("Sum of digits is:",sum)
+
+#Write a program to print reverse of a number
+n=int(input("Enter a number:"))
+r=0
+while n>0:
+    r=r*10+n%10
+    n=n//10
+print("Reverse of the number is:", r)
